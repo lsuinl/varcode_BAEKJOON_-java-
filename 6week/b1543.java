@@ -7,7 +7,7 @@ public class b1543 {
         String hint="";
         n= sc.nextLine();
         hint=sc.nextLine(); 
-        
+
         int result=0;
         for(int i=0;i<n.length();i++){
             if(n.charAt(i)==hint.charAt(0)){
@@ -23,5 +23,6 @@ public class b1543 {
             }
         }
         System.out.println(result);
+        sc.close();
     }
 }
