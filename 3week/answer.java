@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 
-public class answer{
+public class answer {
     public static void main(String[] args){
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         int count=0;
